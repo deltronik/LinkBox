@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family:'Lora',sans-serif,serif;
+    background-image: linear-gradient(to top, #041317 69%, #000 100%);
+  }
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+/* HEADER */
+header{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+}  
+header figure{
+  height: 120px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  border-radius: 100%;
+  border:3px solid gray;
+  
+}
+
+header figure img{
+  height: 100%;
+  width: 100%;
+}
+
+header h1{
+  font-family: 'Orbit';
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+header nav{
+  margin-bottom: 2em;
+}
+
+header nav a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 1.6em;
+}
+
+
+main {
+  flex-grow: 1;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main nav{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main nav li{
+  list-style: none;  
+  background-color: #00212a;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+main nav li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+footer h6{
+  border-top: 1.8px dashed #fff;
+  padding-top: 1.5em;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+  margin-top: 3px;
+}
+
+footer p a{
+  text-decoration: none;
+  color:#fff;
+}
+
+  
+  /* Movil */
+  @media (max-width: 512px){
+    body{
+    }
+  }
